@@ -9,9 +9,9 @@ namespace AlbedoTeam.Communications.Contracts.Requests
 
         string Name { get; set; }
 
-        string MessageType { get; set; }
+        MessageType MessageType { get; set; }
 
-        string ContentType { get; set; }
+        ContentType ContentType { get; set; }
 
         string ContentPattern { get; set; }
 

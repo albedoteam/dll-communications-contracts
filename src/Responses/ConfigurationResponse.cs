@@ -9,7 +9,7 @@ namespace AlbedoTeam.Communications.Contracts.Responses
         string Id { get; set; }
         string AccountId { get; set; }
         string Name { get; set; }
-        public string Provider { get; set; }
+        public Provider Provider { get; set; }
         public List<IConfigurationContract> Contracts { get; set; }
         public bool Enabled { get; set; }
         DateTime CreatedAt { get; set; }

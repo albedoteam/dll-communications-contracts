@@ -8,11 +8,11 @@ namespace AlbedoTeam.Communications.Contracts.Responses
     {
         string Id { get; set; }
         string AccountId { get; set; }
-        string Provider { get; set; }
-        string MessageType { get; set; }
+        Provider Provider { get; set; }
+        MessageType MessageType { get; set; }
         string From { get; set; }
         string Subject { get; set; }
-        string ContentType { get; set; }
+        ContentType ContentType { get; set; }
         string Content { get; set; }
         List<IDestinationAddress> Destinations { get; set; }
         DateTime? SentAt { get; set; }
