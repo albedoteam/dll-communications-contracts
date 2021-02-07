@@ -8,6 +8,7 @@ namespace AlbedoTeam.Communications.Contracts.Responses
     {
         string Id { get; set; }
         string AccountId { get; set; }
+        string Name { get; set; }
         MessageType MessageType { get; set; }
         ContentType ContentType { get; set; }
         string ContentPattern { get; set; }
