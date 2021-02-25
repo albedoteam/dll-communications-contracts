@@ -5,6 +5,7 @@ namespace AlbedoTeam.Communications.Contracts.Requests
 {
     public interface UpdateTemplate
     {
+        string AccountId { get; set; }
         string Id { get; set; }
 
         string Name { get; set; }
