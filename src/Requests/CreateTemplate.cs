@@ -8,6 +8,10 @@ namespace AlbedoTeam.Communications.Contracts.Requests
         string AccountId { get; set; }
 
         string Name { get; set; }
+        
+        string DisplayName { get; set; }
+        
+        string Subject { get; set; }
 
         MessageType MessageType { get; set; }
 
